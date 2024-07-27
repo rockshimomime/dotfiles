@@ -1,7 +1,7 @@
 - hosts: localhost
   become: yes
   tasks:
-    - name: Update pacman cache 
+    - name: Update pacman cache
       pacman:
         update_cache: yes
 
@@ -26,3 +26,10 @@
           - gping
           - vlc
         state: present
+
+    - name: Add user to docker group
+      user:
+        name: rockshimomime
+        groups: docker
+        append: yes
+    
