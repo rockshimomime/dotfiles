@@ -1,11 +1,11 @@
 - hosts: localhost
   become: yes
   tasks:
-    - name: Certificar-se de que pacman está atualizado
+    - name: Update pacman cache 
       pacman:
         update_cache: yes
 
-    - name: Instalar pacotes desejados
+    - name: Install desired packages
       pacman:
         name:
           - git
