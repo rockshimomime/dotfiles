@@ -15,6 +15,7 @@
           - fish
           - docker
           - kubectl
+          - kubectx
           - azure-cli
           - aws-cli
           - exa
