@@ -10,7 +10,8 @@ alias lta="exa --sort Name --long --tree --all"
 alias ls="exa --sort Name --long --all"
 alias k="kubectl"
 alias kgp="kubectl get pods"
-
+alias ping="gping"
+alias cat="bat"
 
 # Starship Theme
 starship init fish | source
