@@ -1,0 +1,30 @@
+- hosts: localhost  
+  become: yes  
+  tasks:  
+    - name: Certificar-se de que pacman está atualizado  
+      pacman:  
+        update_cache: yes  
+  
+    - name: Instalar pacotes desejados  
+      pacman:  
+        name:  
+          - git
+          - neovim
+          - tmux
+          - alacritty
+          - fish
+          - kubectl
+          - azure-cli
+          - aws-cli
+          - exa
+          - curl
+          - dig
+          - vlc
+        state: present 
+
+    - name: Instalar asdf using AUR  
+      command: yay -S --noconfirm asdf-vm  
+      args:  
+        creates: /usr/bin/asdf  # Caminho do binário do asdf  
+      environment:  
+        MAKEPKG: "--noconfirm"  # Evita prompts durante a compilação  
