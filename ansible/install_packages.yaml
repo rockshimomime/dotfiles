@@ -26,6 +26,7 @@
           - yq
           - gping
           - vlc
+          - obsidian
         state: present
 
     - name: Add user to docker group
