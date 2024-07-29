@@ -17,6 +17,7 @@ alias cat="bat"
 
 # Envs
 set KUBE_EDITOR "nvim"
+export KUBE_EDITOR="nvim"
 
 # Starship Theme
 starship init fish | source
