@@ -38,5 +38,5 @@ asdf install python 3.12.4
 ## Install Tmux Plugin Manager
 
 ```shell
-git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm   
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 ```
