@@ -1,11 +1,5 @@
 # Setup Environment
 
-## Run Ansible play-book
-
-```shell
-ansible-playbook install_packages.yaml --ask-become-pass
-```
-
 ## Install Starship
 
 ```shell
@@ -16,6 +10,12 @@ curl -sS https://starship.rs/install.sh | sh -s -- --bin-dir /data/data/com.term
 
 ```shell
 git clone https://aur.archlinux.org/asdf-vm.git && cd asdf-vm && makepkg -si
+```
+
+## Run Ansible play-book
+
+```shell
+ansible-playbook install_packages.yaml --ask-become-pass
 ```
 
 How to install some dev packages with asdf
@@ -34,3 +34,9 @@ asdf install python 3.12.4
 ## Install Alacritty Themes by docs
 
 <https://github.com/alacritty/alacritty-theme>
+
+## Install Tmux Plugin Manager
+
+```shell
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm   
+```
