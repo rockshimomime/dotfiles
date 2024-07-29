@@ -27,6 +27,8 @@
           - gping
           - vlc
           - obsidian
+          - ttf-cascadia-code
+          - ttf-fira-code
         state: present
 
     - name: Add user to docker group
