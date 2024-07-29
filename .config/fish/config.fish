@@ -12,6 +12,7 @@ alias k="kubectl"
 alias kgp="kubectl get pods"
 alias kx="kubectx"
 alias kn="kubens"
+alias KUBE_EDITOR="nvim"
 alias ping="gping"
 alias cat="bat"
 
