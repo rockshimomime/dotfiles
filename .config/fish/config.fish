@@ -14,6 +14,7 @@ alias kx="kubectx"
 alias kn="kubens"
 alias ping="gping"
 alias cat="bat"
+alias ghce="gh copilot explain"
 
 # Envs
 set KUBE_EDITOR "nvim"
