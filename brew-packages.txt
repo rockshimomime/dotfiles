@@ -1,0 +1,33 @@
+brew install bottom
+brew install kubent
+brew install eks-node-viewer
+brew install gh
+brew install azure-cli
+brew install mysql-client
+brew install mysql
+brew install telnet
+brew install doggo
+brew install zellij
+brew install bat
+brew install lsd
+brew install k9s
+brew install kubectx
+brew install awscli
+brew install fzf
+brew install lazygit
+brew install tree-sitter
+brew install neovim
+brew install --cask amazon-q
+brew install --cask docker
+brew install --cask steam
+brew install --cask discord
+brew install --cask microsoft-teams
+brew install --cask datagrip
+brew install --cask mailspring
+brew install --cask visual-studio-code
+brew install --cask nordvpn
+brew install --cask pritunl
+brew install --cask iina
+brew install --cask obsidian
+brew install --cask microsoft-office
+brew install --cask ghostty
